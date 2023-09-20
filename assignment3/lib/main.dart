@@ -148,7 +148,7 @@ class HomeScreen extends StatelessWidget {
                child: Icon(Icons.upload,),
                style: ElevatedButton.styleFrom(
                shape: CircleBorder(),
-                 padding: EdgeInsets.all(24)
+                 padding: EdgeInsets.all(20)
                ),
 
              ),
