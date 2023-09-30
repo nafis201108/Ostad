@@ -25,7 +25,7 @@ print(MediaQuery.devicePixelRatioOf(context));
 
 
             return GridView.count(
-              crossAxisCount:  orientation == Orientation.portrait ? 2 : 2,
+              crossAxisCount:  orientation == Orientation.portrait ? 2 : 4,
               children: List.generate(10, (index){
                 return Center(
 
